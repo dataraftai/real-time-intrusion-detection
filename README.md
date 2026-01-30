@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+
+
 ## 🚨 Real-Time Intrusion Detection System (ML + FastAPI + Docker)
 
 A production-ready machine learning system for detecting malicious network traffic in real time, deployed as a scalable REST API.
@@ -11,38 +18,38 @@ The solution goes beyond model training by delivering a fully deployed ML system
 ###  Why This Project Matters
 
 This project demonstrates end-to-end ML engineering, not just algorithms.
-
+```
 ✔ Real-world dataset
 ✔ Highly imbalanced classification problem
 ✔ Robust preprocessing with pipelines
 ✔ Probabilistic decision-making with thresholds
 ✔ API-first deployment mindset
 ✔ Containerized for portability
-
+```
 ###  Machine Learning Design
-#### Problem Type
+### Problem Type
 
-- #### Binary Classification
+#### Binary Classification
 
 0 → Normal / Benign Traffic
 1 → Intrusion / Attack
 
-- #### Model
+#### Model
 
 - Random Forest Classifier
 
-Strong baseline for tabular data
-Handles non-linear relationships
-Robust to noise and imbalance
-Minimal feature scaling requirements
+- Strong baseline for tabular data
+- Handles non-linear relationships
+- Robust to noise and imbalance
+- Minimal feature scaling requirements
 
 - Key Techniques
 
-ColumnTransformer-based preprocessing
-One-hot encoding for categorical features
-Median & mode imputation
-Class imbalance handling
-Probability-based decision thresholding
+- ColumnTransformer-based preprocessing
+- One-hot encoding for categorical features
+- Median & mode imputation
+- Class imbalance handling
+- Probability-based decision thresholding
 
 ### 📊 Model Performance
 
