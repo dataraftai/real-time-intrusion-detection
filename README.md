@@ -43,7 +43,7 @@ This project demonstrates end-to-end ML engineering, not just algorithms.
 - Robust to noise and imbalance
 - Minimal feature scaling requirements
 
-- Key Techniques
+### Key Techniques
 
 - ColumnTransformer-based preprocessing
 - One-hot encoding for categorical features
