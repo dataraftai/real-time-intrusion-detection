@@ -37,7 +37,6 @@ This project demonstrates end-to-end ML engineering, not just algorithms.
 #### Model
 
 - Random Forest Classifier
-
 - Strong baseline for tabular data
 - Handles non-linear relationships
 - Robust to noise and imbalance
