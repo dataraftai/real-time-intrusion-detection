@@ -69,7 +69,7 @@ The model achieves near-perfect separation between normal and attack traffic.
 
 ### Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/feature-importance.png)
 
 ### 🏗️ System Architecture
 ```
