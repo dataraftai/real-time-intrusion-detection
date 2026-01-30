@@ -34,10 +34,16 @@ def predict_attack(data:UserInput):
         input_df[col] = input_df[col].astype(str)
 
     # Prediction
-    prediction = int(model.predict(input_df)[0])
-    probabllity = float(model.predict_proba(input_df)[0][1])
+    probabllity = model.predict_proba(input_df)[0][1]
+    
+    THRESHOULD = 0.80
+
+    prediction = 1 if probabllity >= THRESHOULD else 0
+    lable = "Attack" if prediction == 1 else "Normal"
 
     return {
         "predicted_category":prediction,
-        "confidence" : round(probabllity,4)
+        "traffic_type" : lable,
+        "confidence" : round(float(probabllity),4),
+        "decision_threshold" : THRESHOULD
     }
