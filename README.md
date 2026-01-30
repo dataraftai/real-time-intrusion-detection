@@ -152,13 +152,13 @@ http://localhost:8000
 ```
 ### 🧪 Tech Stack
 
-Python
-Scikit-learn
-Pandas / NumPy
-FastAPI
-Pydantic
-Docker
-Joblib
+- Python
+- Scikit-learn
+- Pandas / NumPy
+- FastAPI
+- Pydantic
+- Docker
+- Joblib
 
 ### 👩‍💻 Author
 
