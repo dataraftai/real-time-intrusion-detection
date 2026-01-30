@@ -57,15 +57,15 @@ The model achieves near-perfect separation between normal and attack traffic.
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix_rf.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ### ROC Curve
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](images/roc-curve.png)
 
 ### Precision–Recall Curve
 
-![PR Curve](images/pr_curve.png)
+![PR Curve](images/precision-curve.png)
 
 ### Feature Importance
 
@@ -115,20 +115,22 @@ POST /predict
 
 ### 🐳 Dockerized Deployment
 #### Build Image
-
+```
 docker build -t intrusion-detection-api .
-
+```
 #### Docker Hub Image
 You can pull and run the container directly from Docker Hub:
 ```
 docker pull dataforai/intrusion-detection-api
 ```
 #### Run Container
+```
 docker run -p 8000:8000 intrusion-detection-api
-
+```
 #### 📍 API available at:
+```
 http://localhost:8000
-
+```
 ### 📂 Project Structure
 
 ```
